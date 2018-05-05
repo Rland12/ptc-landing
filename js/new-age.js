@@ -5,7 +5,7 @@
     
     axios({
         method: 'post',
-        url: 'https://4e71f9cb.ngrok.io/subscribe',
+        url: 'https://mailing-ptc.herokuapp.com/subscribe',
         data: { email: email }
     }).then(({ data }) => console.log(data)).catch(err => console.error(err.response.data))
   });
