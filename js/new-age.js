@@ -1,6 +1,14 @@
 (function($) {
   "use strict"; // Start of use strict
-
+  document.getElementById('subscribe').addEventListener('click', () => {
+    const email = document.getElementById('email').value
+    
+    axios({
+        method: 'post',
+        url: 'https://4e71f9cb.ngrok.io/subscribe',
+        data: { email: email }
+    }).then(({ data }) => console.log(data)).catch(err => console.error(err.response.data))
+  });
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
