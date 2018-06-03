@@ -47,7 +47,6 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-})(jQuery); // End of use strict
 
 	// Get the modal
   var modal = document.getElementById('myModal');
@@ -70,8 +69,10 @@
   
   // When the user clicks anywhere outside of the modal, close it
   window.onclick = function(event) {
-    event.preventDefault();
     if (event.target == modal) {
       modal.style.display = "none";
     }
   }
+
+})(jQuery); // End of use strict
+
