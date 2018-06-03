@@ -50,7 +50,9 @@ body {
 
 /* Modal Content */
 .modal-content {
-    background-color: #fefefe;
+  background: url("../img/bg-pattern.png"), #7b4397;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #fcbd20, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #fcbd20, #dc2430);
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
