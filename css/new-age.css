@@ -285,7 +285,7 @@ section.download .badges .badge-link {
 }
 
 section.download .badges .badge-link:last-child {
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 section.download .badges .badge-link img {
