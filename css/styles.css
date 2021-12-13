@@ -11429,7 +11429,13 @@ section.cta:before {
 .icon-feature {
   font-size: 4rem;
 }
-
+/* social media icons li a i */
+li a i{
+  color:white;
+}
+li a i:hover{
+  color:wheat;
+}
 .features-device-mockup {
   display: flex;
   align-items: center;
