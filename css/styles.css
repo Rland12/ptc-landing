@@ -296,10 +296,21 @@ kbd kbd {
 figure {
   margin: 0 0 1rem;
 }
-
+.logo{
+  width: 47px;
+  aspect-ratio: auto 47/47;
+  height:47px
+}
+.phone-img{
+  width: 210px; 
+  aspect-ratio: auto 210 / 448;
+  height: 448px;
+}
 img,
 svg {
   vertical-align: middle;
+  max-width: 100%;
+  height: auto;
 }
 
 table {
@@ -573,7 +584,7 @@ progress {
   display: inline-block;
 }
 .list-inline-item:not(:last-child) {
-  margin-right: 0.5rem;
+  margin-right: 1.5rem;
 }
 
 .initialism {
