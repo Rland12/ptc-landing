@@ -304,7 +304,7 @@ figure {
 .phone-img{
   width: 210px; 
   aspect-ratio: auto 210 / 448;
-  height: 448px;
+  /* height: 448px; */
 }
 img,
 svg {
