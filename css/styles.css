@@ -11545,6 +11545,9 @@ li a i:hover{
   .features-device-mockup .device-wrapper {
     max-width: 17rem;
   }
+  .phone-img{
+    width: 100%;
+  }
 }
 footer a {
   color: rgba(255, 255, 255, 0.5);
