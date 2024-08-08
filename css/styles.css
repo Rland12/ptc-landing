@@ -5417,6 +5417,7 @@ textarea.form-control-lg {
   .modal-fullscreen-sm-down .modal-body {
     overflow-y: auto;
   }
+  
 }
 @media (max-width: 767.98px) {
   .modal-fullscreen-md-down {
@@ -5756,9 +5757,7 @@ textarea.form-control-lg {
   padding: var(--bs-popover-body-padding-y) var(--bs-popover-body-padding-x);
   color: var(--bs-popover-body-color);
 }
-.carousel-container{
-  width: 60%;
-}
+
 .carousel {
   position: relative;
 }
@@ -10898,6 +10897,9 @@ p {
   }
   .logo{
     width:3.5rem;
+  }
+  .carousel-container{
+    width: 60%;
   }
   #mainNav.navbar-shrink {
     padding-top: 1rem;
